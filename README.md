@@ -11,8 +11,9 @@ Faça uma página diferente para cada questão que carrega e usa os componentes,
     2. Dentro do escopo encapsulado, defina a estrutura HTML e o CSS básico para um cartão, utilizando a tag <slot> nomeada para permitir que o desenvolvedor insira o nome, a biografia e a foto do usuário diretamente no HTML externo.
     3. Por fim, registre o componente utilizando customElements.define com o nome <user-card>.
 - [ ] **Bola de Cristal Mágica (bola 8).**
-    Construa o componente <magic-ball> visualmente como um círculo escuro usando CSS dentro do Shadow DOM e adicione um elemento de texto em destaque no centro. 
-    Em seguida, implemente um ouvinte de eventos de clique na estrutura raiz do componente que selecione aleatoriamente uma resposta de um array interno de strings, como "Sim", "Não", "As perspectivas não são boas" ou "Vai dar ruim!". A cada clique sorteie uma resposta.
+    1. Construa o componente <magic-ball> visualmente como um círculo escuro usando CSS dentro do Shadow DOM e adicione um elemento de texto em destaque no centro. 
+    2. Em seguida, implemente um ouvinte de eventos de clique na estrutura raiz do componente que selecione aleatoriamente uma resposta de um array interno de strings, como "Sim", "Não", "As perspectivas não são boas" ou "Vai dar ruim!". 
+    3. A cada clique sorteie uma resposta.
 - [ ] **Badge de Notificação (contador de mensagens ou emails).**
     1. Comece definindo o método estático observedAttributes no seu componente <notification-badge> para monitorar um atributo chamado count. 
     2. Implemente o callback attributeChangedCallback de modo que, sempre que o número de notificações for alterado diretamente pelo HTML, o componente atualize seu valor interno e reflita o novo número no visual da bolinha do badge.
