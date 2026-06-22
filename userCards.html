@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Cards de Usuário</title>
+        <link href="/src/style.css" rel="stylesheet" />
+        <style>
+            .cards {
+                display: flex;
+                align-items: center;
+                gap: 10%;
+            }
+        </style>
+    </head>
+    <body>
+        <main>
+            <h1>Cartões de Usuário</h1>
+
+            <div class="cards">
+
+                <user-card
+                name="Lagosta"
+                bio="é um cara de boa na lagoa"
+                image="./src/assets/lagosta_pintada.jpg"
+                ></user-card>
+                <user-card
+                name="Macs"
+                bio="Um anjinho encarnado."
+                image="src/assets/eu_macacode.webp"
+                ></user-card>
+
+            </div>
+        
+        </main>
+       <nav class="pages"> 
+         <a href="/index.html">Início</a>
+         <a href="/userCards.html">Cartões de usuário</a>
+         <a href="/">Bola Mágica 8</a>
+         <a href="/">Cartões de usuário</a>
+         
+       </nav>
+
+        <script type="module" src="/src/userProfileCard.js"></script>
+    </body>
+</html>

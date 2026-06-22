@@ -46,7 +46,7 @@ export class UserProfileCard extends HTMLElement {
           flex-direction: column;
           align-items:center;
 
-          background: violet;
+          background: purple;
           border-radius: 2rem;
           width: fit-content;
           padding: 1rem 1.6rem;
@@ -59,16 +59,23 @@ export class UserProfileCard extends HTMLElement {
         div {
           display: flex;
           flex-direction: column;
-          align-items:center;
+          align-items: center;
 
           width: fit-content;
           padding: 1rem 2rem;
         }
-          img {
+        img {
           border-radius: 2rem;
           max-width: 20vw;
-          
+        }
+        .nome {
+          color: yellow;
+        }
+          .bio {
+            color: white;
+            font-style: italic;
           }
+          
       
       </style>
     `;
