@@ -29,13 +29,12 @@ export class UserProfileCard extends HTMLElement {
     }
 
     attributeChangedCallback(name, oldValue, newValue) {
-        if (name === 'name' && oldValue !== newValue) 
-          this.shadowRoot.querySelector('.nome').innerHTML = newValue;
-        if (name === 'bio' && oldValue !== newValue) 
-          this.shadowRoot.querySelector('.bio').innerHTML = newValue;
-        if (name === 'image' && oldValue !== newValue) 
-          this.shadowRoot.querySelector('.profImg').src = newValue;
-        
+        if (name === "name" && oldValue !== newValue)
+            this.shadowRoot.querySelector(".nome").innerHTML = newValue;
+        if (name === "bio" && oldValue !== newValue)
+            this.shadowRoot.querySelector(".bio").innerHTML = newValue;
+        if (name === "image" && oldValue !== newValue)
+            this.shadowRoot.querySelector(".profImg").src = newValue;
     }
 
     style() {
@@ -62,7 +61,7 @@ export class UserProfileCard extends HTMLElement {
           align-items: center;
 
           width: fit-content;
-          padding: 1rem 2rem;
+          
         }
         img {
           border-radius: 2rem;
