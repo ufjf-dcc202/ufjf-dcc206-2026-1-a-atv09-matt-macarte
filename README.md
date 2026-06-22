@@ -6,7 +6,7 @@ Esta é uma lista de exercícios para praticar para a prova (não vale ponto).
 
 Faça uma página diferente para cada questão que carrega e usa os componentes, mas use o mesmo repositório e histórico.
 
-- [ ] **Cartão de Perfil de Usuário.**
+- [v] **Cartão de Perfil de Usuário.**
     1. Para implementar este componente, você deve começar criando uma classe que estende HTMLElement e, no construtor, anexar um Shadow DOM no modo aberto.
     2. Dentro do escopo encapsulado, defina a estrutura HTML e o CSS básico para um cartão, utilizando a tag <slot> nomeada para permitir que o desenvolvedor insira o nome, a biografia e a foto do usuário diretamente no HTML externo.
     3. Por fim, registre o componente utilizando customElements.define com o nome <user-card>.
